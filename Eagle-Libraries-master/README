@@ -1,0 +1,22 @@
+Repository for Cadsoft Eagle library files for the MTIID department
+at CalArts
+——————————
+To utilize the contents of this repo in EAGLE CAD do the following.
+
+1.Using terminal Navigate to the EAGLE folder on your machine. On my 
+Mac this is located at /Applications/EAGLE-7.7.0 which would make the terminal command:
+“cd /Applications/EAGLE-7.7.0”. Please note that if you have a different 
+version of eagle installed this path will differ. Also be careful as 
+this has to be done for each version of EAGLE you have installed.  
+
+2. Remove the lbr file by entering in the terminal command “rm -r lbr”. THIS IS
+DESTRUCTIVE. You will loose all of your current libraries after you do this. If you dont
+want to loose your current libraries then make sure to move the ones you want to keep out
+of the lbr folder before you execute the rm command. After you clone the repo in the next
+step simply move the files back into the folder and you are good to go.
+
+3. Clone this repo by entering  into terminal “git clone https://github.com/mtiid/Eagle-Libraries.git lbr”. This will create a copy of this repo in your current folder, which for me is /Applications/EAGLE-7.7.0, and name it “lbr” instead of Eagle-Libraries.
+
+4. Now you are free to open up EAGLE and import the libraries you need by licking on the “library” drop down menu and selecting the use menu option. It is recommended to start off with the Adafruit and Sparkfun libraries and then add more as needed. This will help to keep your workspace less cluttered than if you were to import all of the libraries at once.
+
+
